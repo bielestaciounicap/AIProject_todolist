@@ -11,6 +11,7 @@ import com.azure.core.credential.AzureKeyCredential;
 import java.util.Collections;
 
 class Main {
+    //
 
     public static void main(String[] args) {
         // Substitua pelos valores reais do seu arquivo de configuração ou variáveis de ambiente
