@@ -30,4 +30,3 @@ COPY --from=build /app/target/demo-0.0.1-SNAPSHOT.jar /app/app.jar
 
 # Define o comando de entrada para iniciar o aplicativo quando o contêiner for executado
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]
-
